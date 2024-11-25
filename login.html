@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipti Medical</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img src="Diptimedical.png" alt="Dipti Medical Logo" height="40"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                </ul>
+                <div class="header-right ml-auto">
+                    <button class="login-btn btn btn-outline-primary" style="color: #ffffff; background-color: #00796b;">
+                        <a href="login.html" style="color: inherit; text-decoration: none;">Log in</a>
+                    </button>
+                    <button class="cart-btn btn btn-outline-secondary">Cart</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+
+<!--Navigation strip-->
+    <section class="nav-strip">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#">Baby Care</a>
+                <div class="dropdown">
+                    <a href="#">Diapers</a>
+                    <a href="#">Wipes</a>
+                    <a href="#">Feeding</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="long-text">Health Supplements</a>
+                <div class="dropdown">
+                    <a href="#">Vitamins</a>
+                    <a href="#">Protein Shakes</a>
+                    <a href="#">Supplements</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#">Women Care</a>
+                <div class="dropdown">
+                    <a href="#">Hygiene</a>
+                    <a href="#">Skin Care</a>
+                    <a href="#">Supplements</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#">Personal Care</a>
+                <div class="dropdown">
+                    <a href="#">Hair Care</a>
+                    <a href="#">Body Wash</a>
+                    <a href="#">Oral Care</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#">Ayurveda</a>
+                <div class="dropdown">
+                    <a href="#">Herbal Products</a>
+                    <a href="#">Organic Supplements</a>
+                    <a href="#">Natural Remedies</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#">Health Devices</a>
+                <div class="dropdown">
+                    <a href="#">Thermometers</a>
+                    <a href="#">BP Monitors</a>
+                    <a href="#">Glucometers</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#">Home Essentials</a>
+                <div class="dropdown">
+                    <a href="#">Sanitizers</a>
+                    <a href="#">Disinfectants</a>
+                    <a href="#">Cleaning Supplies</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#">Health Condition</a>
+                <div class="dropdown">
+                    <a href="#">Diabetes Care</a>
+                    <a href="#">Cardiac Care</a>
+                    <a href="#">Respiratory Care</a>
+                </div>
+            </li>
+        </ul>
+    </section>  
+    <!-- Login Section -->
+<section class="login-section">
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username/Phone Number</label>
+                <input type="text" id="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
+            <button type="submit" class="log-in-btn">Customer Login</button>
+            <button type="button" class="admin-login-btn" style="margin-top: 10px; background-color: #ff9800; color: white;">Login as Admin</button>
+        </form>
+        <p class="message" id="message"></p>
+        <p>New user? <a href="register.html" style="color: #007bff;">Create an account</a></p>
+    </div>
+</section>
+<script src="login.js"></script>
+</body>
+</html>
